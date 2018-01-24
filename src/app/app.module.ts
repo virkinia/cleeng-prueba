@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { InternoComponent } from './componentes/interno/interno.component';
+import { ApiCleengService } from './servicios/api-cleeng.service';
 
 
 @NgModule({
@@ -14,7 +15,7 @@ import { InternoComponent } from './componentes/interno/interno.component';
     BrowserModule,
 
 ],
-  providers: [],
+  providers: [ApiCleengService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
