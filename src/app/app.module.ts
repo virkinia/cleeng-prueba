@@ -1,17 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
 import { AppComponent } from './app.component';
+import { InternoComponent } from './componentes/interno/interno.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InternoComponent
   ],
   imports: [
-    BrowserModule
-  ],
+    BrowserModule,
+
+],
   providers: [],
   bootstrap: [AppComponent]
 })
