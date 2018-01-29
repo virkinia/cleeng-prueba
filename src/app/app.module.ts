@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { InternoComponent } from './componentes/interno/interno.component';
 import { ApiCleengService } from './servicios/api-cleeng.service';
 
+import { Script } from './servicios/script.service';
+
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { ApiCleengService } from './servicios/api-cleeng.service';
 ],
   providers: [
     ApiCleengService,
+    Script
+
 ],
   bootstrap: [AppComponent]
 })
